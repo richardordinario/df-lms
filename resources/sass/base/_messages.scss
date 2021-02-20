@@ -1,0 +1,18 @@
+.messages {
+    .chat {
+        &__text {
+            font-size: 14px !important;
+            color: #fff !important;
+            font-weight: 300 !important;
+            letter-spacing: .5px;
+        }
+    }
+}
+
+.start-chat {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
