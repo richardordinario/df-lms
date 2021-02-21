@@ -14,6 +14,7 @@ const VuetifyLoaderPlugin = require('vuetify-loader/lib/plugin');
 
 mix.js('resources/js/login.js', 'public/js')
     .js('resources/js/landing.js', 'public/js')
+    .js('resources/js/student.js', 'public/js')
     .js('resources/js/teacher.js', 'public/js')
     .vue()
     .sass('resources/sass/app.scss', 'public/css')

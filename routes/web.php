@@ -22,7 +22,7 @@ Route::get('login', function () {
 });
 
 Route::get('student/{vue_capture?}', function () {
-    return view('admin');
+    return view('student');
 })->where('vue_capture', '[\/\w\.-]*');
 
 Route::get('teacher/{vue_capture?}', function () {

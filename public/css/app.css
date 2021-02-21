@@ -11011,7 +11011,7 @@ p {
 }
 
 .main {
-  background-color: #DFF8FF !important;
+  background-color: #dff8ff !important;
 }
 
 .bg-primary {
@@ -11030,6 +11030,7 @@ p {
 .v-data-table > .v-data-table__wrapper > table > thead > tr > th,
 .v-data-table > .v-data-table__wrapper > table > tfoot > tr > th {
   font-size: 16px !important;
+  border: none;
 }
 
 ::-webkit-scrollbar {
