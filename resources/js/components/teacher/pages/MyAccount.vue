@@ -1,9 +1,9 @@
 <template>
     <section id="myAccount">
         <v-card rounded="lg">
-            <v-img src="/images/teacher/account-bg.png" max-height="270" class="align-end">
+            <v-img src="/images/teacher/account-bg.png" max-height="270" class="align-end" v-if="$vuetify.breakpoint.lgAndUp">
                 <div class="d-flex flex-row">
-                    <v-avatar size="170" tile color="ml-5">
+                    <v-avatar size="170" tile class="ml-5">
                         <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="John">
                     </v-avatar>
                     <v-card width="100%" class="mt-5" style="background:rgba(255, 255, 255, 0.49);">
@@ -16,12 +16,25 @@
                     </v-card>
                 </div>
             </v-img>
-            <v-card-text class="ma-5">
+            <!-- class="d-flex flex-column justify-content-center align-center" -->
+            <v-card-text v-else class="d-flex flex-row justify-content-center align-center">
+                 <v-avatar size="100" tile >
+                    <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="John">
+                </v-avatar>
+                <v-card width="100%" class="mt-5" elevation="0">
+                    <v-card-text class="ml-5mt-5">
+                        <h5 class="">Maria Dela Cruz</h5>
+                        <h6 class="">Virtual Assistant</h6>
+                    </v-card-text>
+                </v-card>
+            </v-card-text>
+
+            <v-card-text :class="$vuetify.breakpoint.smAndDown ? '' : 'ma-5'">
                 <h5>About Me: </h5>
                 <v-card-text>
                     <v-row no-gutters>
                         <v-col cols="12" md="8">
-                            <p class="mt-5 black--text">Hard-working and self-motivated virtual assistant with 2+ years experience in website content administration, record-keeping, and various personal assistance tasks. Able to focus on work without need for supervision. Current IVAA and GAVA member. Uploaded and edited content for 5 websites with more than 100,000 monthly visitors each in 2018. Seeking to become the remote webmaster and virtual assistant for Tim Jones, LLC.</p>
+                            <p :class="$vuetify.breakpoint.smAndDown ? '' : 'mt-5'" class="black--text">Hard-working and self-motivated virtual assistant with 2+ years experience in website content administration, record-keeping, and various personal assistance tasks. Able to focus on work without need for supervision. Current IVAA and GAVA member. Uploaded and edited content for 5 websites with more than 100,000 monthly visitors each in 2018. Seeking to become the remote webmaster and virtual assistant for Tim Jones, LLC.</p>
                         </v-col>
                         <v-col cols="12" md="4">
                             <v-list dense>

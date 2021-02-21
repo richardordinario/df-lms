@@ -2358,6 +2358,19 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -7180,31 +7193,6 @@ function teacher(_ref) {
 
 })));
 //# sourceMappingURL=bootstrap.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./resources/sass/base/_base.scss":
-/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./resources/sass/base/_base.scss ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-// Imports
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
-___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap);"]);
-// Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  font-family: Nunito !important;\n}\n\n.text-normal {\n  text-transform: capitalize !important;\n}\n\n.text-primary {\n  color: #08C4FF !important;\n}\n\n.text-success {\n  color: #4B9E56 !important;\n}\n\n.text-info {\n  color: #2E61F2 !important;\n}\n\n.text-secondary {\n  color: #A7A4A4 !important;\n}\n\n.text-danger {\n  color: #D5372F !important;\n}\n\n.text-title {\n  font-size: 30px !important;\n}\n\np {\n  font-size: 16px !important;\n}\n\n.drawerLeft .nav__list {\n  color: #08C4FF !important;\n  font-size: 14px !important;\n  font-style: normal;\n}\n.drawerLeft .nav__list-icon {\n  font-size: 14px !important;\n}\n.drawerLeft .nav__list-active {\n  background-color: rgba(8, 205, 255, 0.1) !important;\n}\n\n.messages .chat__text {\n  font-size: 14px !important;\n  color: #fff !important;\n  font-weight: 300 !important;\n  letter-spacing: 0.5px;\n}\n\n.start-chat {\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  /* bring your own prefixes */\n  transform: translate(-50%, -50%);\n}\n\n.main {\n  background-color: #DFF8FF !important;\n}\n\n.bg-primary {\n  background-color: #08C4FF !important;\n}\n\n.bg-primary-1 {\n  background-color: rgba(8, 196, 255, 0.1) !important;\n}\n\n.dislink {\n  text-decoration: none !important;\n}\n\n.v-data-table > .v-data-table__wrapper > table > tbody > tr > th,\n.v-data-table > .v-data-table__wrapper > table > thead > tr > th,\n.v-data-table > .v-data-table__wrapper > table > tfoot > tr > th {\n  font-size: 16px !important;\n}\n\n::-webkit-scrollbar {\n  width: 5px;\n}\n\n::-webkit-scrollbar-track {\n  background: #f1f1f1;\n  box-shadow: inset 0 0 1px #f1f1f1;\n  border-radius: 50px;\n}\n\n::-webkit-scrollbar-thumb {\n  background: #999;\n  border-radius: 50px;\n}\n\n::-webkit-scrollbar-thumb:hover {\n  background: #555;\n}\n\n.ql-container, .ql-editor {\n  min-height: 5rem;\n}", ""]);
-// Exports
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
@@ -39213,36 +39201,6 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
-/***/ "./resources/sass/base/_base.scss":
-/*!****************************************!*\
-  !*** ./resources/sass/base/_base.scss ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_base_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!../../../node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./_base.scss */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/sass-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./resources/sass/base/_base.scss");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_base_scss__WEBPACK_IMPORTED_MODULE_1__.default, options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_1_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_2_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_12_0_rules_0_use_3_base_scss__WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
-
-/***/ }),
-
 /***/ "./node_modules/vuetify/src/components/VAppBar/VAppBar.sass":
 /*!******************************************************************!*\
   !*** ./node_modules/vuetify/src/components/VAppBar/VAppBar.sass ***!
@@ -41575,7 +41533,7 @@ var render = function() {
                     _c("h1", { staticClass: "white--text" }, [_vm._v("8")]),
                     _vm._v(" "),
                     _c("p", { staticClass: "white--text mb-0 pb-0" }, [
-                      _vm._v("Total Subjects")
+                      _vm._v("Total Courses")
                     ])
                   ])
                 ],
@@ -41625,7 +41583,7 @@ var render = function() {
                     _c("h1", { staticClass: "white--text" }, [_vm._v("140")]),
                     _vm._v(" "),
                     _c("p", { staticClass: "white--text mb-0 pb-0" }, [
-                      _vm._v("Total Active Students")
+                      _vm._v("Active Students")
                     ])
                   ])
                 ],
@@ -41650,7 +41608,7 @@ var render = function() {
                     _c("h1", { staticClass: "white--text" }, [_vm._v("10")]),
                     _vm._v(" "),
                     _c("p", { staticClass: "white--text mb-0 pb-0" }, [
-                      _vm._v("Total Active Courses")
+                      _vm._v("Active Courses")
                     ])
                   ])
                 ],
@@ -41716,6 +41674,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "v-row",
+        { staticClass: "mb-16" },
         [
           _c(
             "v-col",
@@ -41724,7 +41683,7 @@ var render = function() {
               _c(
                 "v-card",
                 {
-                  staticClass: "mx-auto",
+                  staticClass: "mx-auto mb-10",
                   attrs: { rounded: "lg", "max-width": "250" }
                 },
                 [
@@ -41770,7 +41729,7 @@ var render = function() {
               _c(
                 "v-card",
                 {
-                  staticClass: "mx-auto",
+                  staticClass: "mx-auto mb-10",
                   attrs: { rounded: "lg", "max-width": "250" }
                 },
                 [
@@ -41816,7 +41775,7 @@ var render = function() {
               _c(
                 "v-card",
                 {
-                  staticClass: "mx-auto",
+                  staticClass: "mx-auto mb-10",
                   attrs: { rounded: "lg", "max-width": "250" }
                 },
                 [
@@ -41862,7 +41821,7 @@ var render = function() {
               _c(
                 "v-card",
                 {
-                  staticClass: "mx-auto",
+                  staticClass: "mx-auto mb-10",
                   attrs: { rounded: "lg", "max-width": "250" }
                 },
                 [
@@ -41938,75 +41897,117 @@ var render = function() {
         "v-card",
         { attrs: { rounded: "lg" } },
         [
-          _c(
-            "v-img",
-            {
-              staticClass: "align-end",
-              attrs: {
-                src: "/images/teacher/account-bg.png",
-                "max-height": "270"
-              }
-            },
-            [
-              _c(
-                "div",
-                { staticClass: "d-flex flex-row" },
+          _vm.$vuetify.breakpoint.lgAndUp
+            ? _c(
+                "v-img",
+                {
+                  staticClass: "align-end",
+                  attrs: {
+                    src: "/images/teacher/account-bg.png",
+                    "max-height": "270"
+                  }
+                },
                 [
                   _c(
-                    "v-avatar",
-                    { attrs: { size: "170", tile: "", color: "ml-5" } },
+                    "div",
+                    { staticClass: "d-flex flex-row" },
                     [
-                      _c("img", {
-                        attrs: {
-                          src: "https://cdn.vuetifyjs.com/images/john.jpg",
-                          alt: "John"
-                        }
-                      })
-                    ]
-                  ),
+                      _c(
+                        "v-avatar",
+                        {
+                          staticClass: "ml-5",
+                          attrs: { size: "170", tile: "" }
+                        },
+                        [
+                          _c("img", {
+                            attrs: {
+                              src: "https://cdn.vuetifyjs.com/images/john.jpg",
+                              alt: "John"
+                            }
+                          })
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "v-card",
+                        {
+                          staticClass: "mt-5",
+                          staticStyle: {
+                            background: "rgba(255, 255, 255, 0.49)"
+                          },
+                          attrs: { width: "100%" }
+                        },
+                        [
+                          _c("v-card-text", { staticClass: "ml-10 mt-5" }, [
+                            _c("h3", { staticClass: "black--text" }, [
+                              _vm._v(
+                                "Maria Dela Cruz\n                            "
+                              ),
+                              _c(
+                                "span",
+                                {
+                                  staticClass: "white--text text-caption ml-10"
+                                },
+                                [
+                                  _c("v-icon", { attrs: { color: "white" } }, [
+                                    _vm._v("mdi-map-marker")
+                                  ]),
+                                  _vm._v("Quezon City")
+                                ],
+                                1
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("h5", { staticClass: "white--text" }, [
+                              _vm._v("Virtual Assistant")
+                            ])
+                          ])
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ]
+              )
+            : _c(
+                "v-card-text",
+                {
+                  staticClass:
+                    "d-flex flex-row justify-content-center align-center"
+                },
+                [
+                  _c("v-avatar", { attrs: { size: "100", tile: "" } }, [
+                    _c("img", {
+                      attrs: {
+                        src: "https://cdn.vuetifyjs.com/images/john.jpg",
+                        alt: "John"
+                      }
+                    })
+                  ]),
                   _vm._v(" "),
                   _c(
                     "v-card",
                     {
                       staticClass: "mt-5",
-                      staticStyle: { background: "rgba(255, 255, 255, 0.49)" },
-                      attrs: { width: "100%" }
+                      attrs: { width: "100%", elevation: "0" }
                     },
                     [
-                      _c("v-card-text", { staticClass: "ml-10 mt-5" }, [
-                        _c("h3", { staticClass: "black--text" }, [
-                          _vm._v(
-                            "Maria Dela Cruz\n                            "
-                          ),
-                          _c(
-                            "span",
-                            { staticClass: "white--text text-caption ml-10" },
-                            [
-                              _c("v-icon", { attrs: { color: "white" } }, [
-                                _vm._v("mdi-map-marker")
-                              ]),
-                              _vm._v("Quezon City")
-                            ],
-                            1
-                          )
-                        ]),
+                      _c("v-card-text", { staticClass: "ml-5mt-5" }, [
+                        _c("h5", {}, [_vm._v("Maria Dela Cruz")]),
                         _vm._v(" "),
-                        _c("h5", { staticClass: "white--text" }, [
-                          _vm._v("Virtual Assistant")
-                        ])
+                        _c("h6", {}, [_vm._v("Virtual Assistant")])
                       ])
                     ],
                     1
                   )
                 ],
                 1
-              )
-            ]
-          ),
+              ),
           _vm._v(" "),
           _c(
             "v-card-text",
-            { staticClass: "ma-5" },
+            { class: _vm.$vuetify.breakpoint.smAndDown ? "" : "ma-5" },
             [
               _c("h5", [_vm._v("About Me: ")]),
               _vm._v(" "),
@@ -42018,11 +42019,20 @@ var render = function() {
                     { attrs: { "no-gutters": "" } },
                     [
                       _c("v-col", { attrs: { cols: "12", md: "8" } }, [
-                        _c("p", { staticClass: "mt-5 black--text" }, [
-                          _vm._v(
-                            "Hard-working and self-motivated virtual assistant with 2+ years experience in website content administration, record-keeping, and various personal assistance tasks. Able to focus on work without need for supervision. Current IVAA and GAVA member. Uploaded and edited content for 5 websites with more than 100,000 monthly visitors each in 2018. Seeking to become the remote webmaster and virtual assistant for Tim Jones, LLC."
-                          )
-                        ])
+                        _c(
+                          "p",
+                          {
+                            staticClass: "black--text",
+                            class: _vm.$vuetify.breakpoint.smAndDown
+                              ? ""
+                              : "mt-5"
+                          },
+                          [
+                            _vm._v(
+                              "Hard-working and self-motivated virtual assistant with 2+ years experience in website content administration, record-keeping, and various personal assistance tasks. Able to focus on work without need for supervision. Current IVAA and GAVA member. Uploaded and edited content for 5 websites with more than 100,000 monthly visitors each in 2018. Seeking to become the remote webmaster and virtual assistant for Tim Jones, LLC."
+                            )
+                          ]
+                        )
                       ]),
                       _vm._v(" "),
                       _c(
@@ -42503,7 +42513,145 @@ var render = function() {
               _c(
                 "v-card",
                 {
-                  staticClass: "mx-auto",
+                  staticClass: "mx-auto mb-10",
+                  attrs: { rounded: "lg", "max-width": "250" }
+                },
+                [
+                  _c(
+                    "v-card-text",
+                    [
+                      _c("v-img", {
+                        attrs: { src: "/images/subject.png", height: "200" }
+                      }),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "mt-2" }, [_vm._v("Science")]),
+                      _vm._v(" "),
+                      _c("v-rating", {
+                        attrs: {
+                          value: 4,
+                          "background-color": "orange lighten-3",
+                          color: "orange"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "v-btn",
+                        {
+                          staticClass: "bg-primary-1 text-primary mt-2",
+                          attrs: { small: "", elevation: "0", rounded: "" }
+                        },
+                        [_vm._v("View Course")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-col",
+            { attrs: { cols: "12", lg: "3", md: "6", sm: "6" } },
+            [
+              _c(
+                "v-card",
+                {
+                  staticClass: "mx-auto mb-10",
+                  attrs: { rounded: "lg", "max-width": "250" }
+                },
+                [
+                  _c(
+                    "v-card-text",
+                    [
+                      _c("v-img", {
+                        attrs: { src: "/images/subject.png", height: "200" }
+                      }),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "mt-2" }, [_vm._v("Science")]),
+                      _vm._v(" "),
+                      _c("v-rating", {
+                        attrs: {
+                          value: 4,
+                          "background-color": "orange lighten-3",
+                          color: "orange"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "v-btn",
+                        {
+                          staticClass: "bg-primary-1 text-primary mt-2",
+                          attrs: { small: "", elevation: "0", rounded: "" }
+                        },
+                        [_vm._v("View Course")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-col",
+            { attrs: { cols: "12", lg: "3", md: "6", sm: "6" } },
+            [
+              _c(
+                "v-card",
+                {
+                  staticClass: "mx-auto mb-10",
+                  attrs: { rounded: "lg", "max-width": "250" }
+                },
+                [
+                  _c(
+                    "v-card-text",
+                    [
+                      _c("v-img", {
+                        attrs: { src: "/images/subject.png", height: "200" }
+                      }),
+                      _vm._v(" "),
+                      _c("h5", { staticClass: "mt-2" }, [_vm._v("Science")]),
+                      _vm._v(" "),
+                      _c("v-rating", {
+                        attrs: {
+                          value: 4,
+                          "background-color": "orange lighten-3",
+                          color: "orange"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "v-btn",
+                        {
+                          staticClass: "bg-primary-1 text-primary mt-2",
+                          attrs: { small: "", elevation: "0", rounded: "" }
+                        },
+                        [_vm._v("View Course")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "v-col",
+            { attrs: { cols: "12", lg: "3", md: "6", sm: "6" } },
+            [
+              _c(
+                "v-card",
+                {
+                  staticClass: "mx-auto mb-10",
                   attrs: { rounded: "lg", "max-width": "250" }
                 },
                 [
@@ -42595,7 +42743,7 @@ var render = function() {
               _c(
                 "v-card",
                 {
-                  staticClass: "mx-auto",
+                  staticClass: "mx-auto mb-10",
                   attrs: { rounded: "lg", "max-width": "250" }
                 },
                 [
@@ -42641,7 +42789,7 @@ var render = function() {
               _c(
                 "v-card",
                 {
-                  staticClass: "mx-auto",
+                  staticClass: "mx-auto mb-10",
                   attrs: { rounded: "lg", "max-width": "250" }
                 },
                 [
@@ -42687,145 +42835,7 @@ var render = function() {
               _c(
                 "v-card",
                 {
-                  staticClass: "mx-auto",
-                  attrs: { rounded: "lg", "max-width": "250" }
-                },
-                [
-                  _c(
-                    "v-card-text",
-                    [
-                      _c("v-img", {
-                        attrs: { src: "/images/subject.png", height: "200" }
-                      }),
-                      _vm._v(" "),
-                      _c("h5", { staticClass: "mt-2" }, [_vm._v("Science")]),
-                      _vm._v(" "),
-                      _c("v-rating", {
-                        attrs: {
-                          value: 4,
-                          "background-color": "orange lighten-3",
-                          color: "orange"
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c(
-                        "v-btn",
-                        {
-                          staticClass: "bg-primary-1 text-primary mt-2",
-                          attrs: { small: "", elevation: "0", rounded: "" }
-                        },
-                        [_vm._v("View Course")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "v-col",
-            { attrs: { cols: "12", lg: "3", md: "6", sm: "6" } },
-            [
-              _c(
-                "v-card",
-                {
-                  staticClass: "mx-auto",
-                  attrs: { rounded: "lg", "max-width": "250" }
-                },
-                [
-                  _c(
-                    "v-card-text",
-                    [
-                      _c("v-img", {
-                        attrs: { src: "/images/subject.png", height: "200" }
-                      }),
-                      _vm._v(" "),
-                      _c("h5", { staticClass: "mt-2" }, [_vm._v("Science")]),
-                      _vm._v(" "),
-                      _c("v-rating", {
-                        attrs: {
-                          value: 4,
-                          "background-color": "orange lighten-3",
-                          color: "orange"
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c(
-                        "v-btn",
-                        {
-                          staticClass: "bg-primary-1 text-primary mt-2",
-                          attrs: { small: "", elevation: "0", rounded: "" }
-                        },
-                        [_vm._v("View Course")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "v-col",
-            { attrs: { cols: "12", lg: "3", md: "6", sm: "6" } },
-            [
-              _c(
-                "v-card",
-                {
-                  staticClass: "mx-auto",
-                  attrs: { rounded: "lg", "max-width": "250" }
-                },
-                [
-                  _c(
-                    "v-card-text",
-                    [
-                      _c("v-img", {
-                        attrs: { src: "/images/subject.png", height: "200" }
-                      }),
-                      _vm._v(" "),
-                      _c("h5", { staticClass: "mt-2" }, [_vm._v("Science")]),
-                      _vm._v(" "),
-                      _c("v-rating", {
-                        attrs: {
-                          value: 4,
-                          "background-color": "orange lighten-3",
-                          color: "orange"
-                        }
-                      }),
-                      _vm._v(" "),
-                      _c(
-                        "v-btn",
-                        {
-                          staticClass: "bg-primary-1 text-primary mt-2",
-                          attrs: { small: "", elevation: "0", rounded: "" }
-                        },
-                        [_vm._v("View Course")]
-                      )
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c(
-            "v-col",
-            { attrs: { cols: "12", lg: "3", md: "6", sm: "6" } },
-            [
-              _c(
-                "v-card",
-                {
-                  staticClass: "mx-auto",
+                  staticClass: "mx-auto mb-10",
                   attrs: { rounded: "lg", "max-width": "250" }
                 },
                 [
@@ -77213,12 +77223,11 @@ var __webpack_exports__ = {};
   !*** ./resources/js/teacher.js ***!
   \*********************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
-/* harmony import */ var vuetify_lib__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vuetify/lib */ "./node_modules/vuetify/lib/framework.js");
-/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
+/* harmony import */ var vuetify_lib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vuetify/lib */ "./node_modules/vuetify/lib/framework.js");
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _components_teacher_App_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/teacher/App.vue */ "./resources/js/components/teacher/App.vue");
 /* harmony import */ var _components_teacher_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/teacher/router */ "./resources/js/components/teacher/router/index.js");
-/* harmony import */ var _sass_base_base_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sass/base/_base.scss */ "./resources/sass/base/_base.scss");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -77232,11 +77241,10 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 
 
-
-vue__WEBPACK_IMPORTED_MODULE_3__.default.use(vuetify_lib__WEBPACK_IMPORTED_MODULE_4__.default);
-vue__WEBPACK_IMPORTED_MODULE_3__.default.use(vue_router__WEBPACK_IMPORTED_MODULE_5__.default);
+vue__WEBPACK_IMPORTED_MODULE_2__.default.use(vuetify_lib__WEBPACK_IMPORTED_MODULE_3__.default);
+vue__WEBPACK_IMPORTED_MODULE_2__.default.use(vue_router__WEBPACK_IMPORTED_MODULE_4__.default);
 var opts = {};
-var router = new vue_router__WEBPACK_IMPORTED_MODULE_5__.default({
+var router = new vue_router__WEBPACK_IMPORTED_MODULE_4__.default({
   hashbang: false,
   mode: 'history',
   base: '/teacher',
@@ -77272,9 +77280,9 @@ router.beforeEach(function (to, from, next) {
 
   return next();
 });
-new vue__WEBPACK_IMPORTED_MODULE_3__.default({
+new vue__WEBPACK_IMPORTED_MODULE_2__.default({
   router: router,
-  vuetify: new vuetify_lib__WEBPACK_IMPORTED_MODULE_4__.default(opts),
+  vuetify: new vuetify_lib__WEBPACK_IMPORTED_MODULE_3__.default(opts),
   'el': '#app',
   render: function render(h) {
     return h(_components_teacher_App_vue__WEBPACK_IMPORTED_MODULE_0__.default);

@@ -5,7 +5,6 @@ import Vuetify from 'vuetify/lib'
 import VueRouter from 'vue-router'
 import App from './components/teacher/App.vue'
 import routes from './components/teacher/router'
-import '../sass/base/_base.scss'
 
 Vue.use(Vuetify)
 Vue.use(VueRouter)

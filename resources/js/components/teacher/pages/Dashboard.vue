@@ -26,7 +26,7 @@
                 <v-card class="bg-primary mx-auto" rounded="xl" max-width="250">
                     <v-card-text class="text-center">
                         <h1 class="white--text">8</h1>
-                        <p class="white--text mb-0 pb-0">Total Subjects</p>
+                        <p class="white--text mb-0 pb-0">Total Courses</p>
                     </v-card-text>
                 </v-card>
             </v-col>
@@ -42,7 +42,7 @@
                 <v-card class="bg-primary mx-auto" rounded="xl" max-width="250">
                     <v-card-text class="text-center">
                         <h1 class="white--text">140</h1>
-                        <p class="white--text mb-0 pb-0">Total Active Students</p>
+                        <p class="white--text mb-0 pb-0">Active Students</p>
                     </v-card-text>
                 </v-card>
             </v-col>
@@ -50,7 +50,7 @@
                 <v-card class="bg-primary mx-auto" rounded="xl" max-width="250">
                     <v-card-text class="text-center">
                         <h1 class="white--text">10</h1>
-                        <p class="white--text mb-0 pb-0">Total Active Courses</p>
+                        <p class="white--text mb-0 pb-0">Active Courses</p>
                     </v-card-text>
                 </v-card>
             </v-col>
@@ -71,9 +71,9 @@
                 </v-row>
             </v-flex>
         </v-layout>
-        <v-row>
+        <v-row class="mb-16">
             <v-col cols="12" lg="3" md="6" sm="6">
-                <v-card rounded="lg" max-width="250" class="mx-auto">
+                <v-card rounded="lg" max-width="250" class="mx-auto mb-10">
                     <v-card-text>
                         <v-img src="/images/subject.png" height="200"></v-img>
                         <h5 class="mt-2">Science</h5>
@@ -88,7 +88,7 @@
                 </v-card>
             </v-col>
             <v-col cols="12" lg="3" md="6" sm="6">
-                <v-card rounded="lg" max-width="250" class="mx-auto">
+                <v-card rounded="lg" max-width="250" class="mx-auto mb-10">
                     <v-card-text>
                         <v-img src="/images/subject.png" height="200"></v-img>
                         <h5 class="mt-2">Science</h5>
@@ -103,7 +103,7 @@
                 </v-card>
             </v-col>
             <v-col cols="12" lg="3" md="6" sm="6">
-                <v-card rounded="lg" max-width="250" class="mx-auto">
+                <v-card rounded="lg" max-width="250" class="mx-auto mb-10">
                     <v-card-text>
                         <v-img src="/images/subject.png" height="200"></v-img>
                         <h5 class="mt-2">Science</h5>
@@ -118,7 +118,7 @@
                 </v-card>
             </v-col>
             <v-col cols="12" lg="3" md="6" sm="6">
-                <v-card rounded="lg" max-width="250" class="mx-auto">
+                <v-card rounded="lg" max-width="250" class="mx-auto mb-10">
                     <v-card-text>
                         <v-img src="/images/subject.png" height="200"></v-img>
                         <h5 class="mt-2">Science</h5>
